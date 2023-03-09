@@ -8,16 +8,20 @@
 2. 运行clip2watermark.bat
 3. 粘贴 (粘贴后的即为加好水印logo的图片)
 # 🛠 命令批处理
--wmopacity 80 表示透明度80(0-100)
--wmflag bottom-right 表示下右位置添加水印logo 可用值:
-    top-left, top-center, top-right
-    center-left, center, center-right
-    bottom-left, bottom-center, bottom-right
--wmfile fyj888-logo.png 水印logo 换你自己的
 ```batch
 nconvert.exe -clipboard  -overwrite -o clipboard -out png -wmflag bottom-right -wmopacity 80 -wmfile fyj888-logo.png
 img2clip.exe clipboard.png
 ```
+-wmopacity **80** 表示透明度80(0-100)
+
+-wmflag **bottom-right** 表示下右位置添加水印logo 可用值:
+
+    top-left, top-center, top-right
+    center-left, center, center-right
+    bottom-left, bottom-center, bottom-right
+
+-wmfile **fyj888-logo.png** 水印logo 请换成你自己制作的
+
 # ⌨️ 一行源码(程序虽然简单,但能给你带来方便)
 ```c#
 using System;
