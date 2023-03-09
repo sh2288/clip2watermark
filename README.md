@@ -1,7 +1,7 @@
 # 📣 clip2watermark 剪贴板图片加水印logo工具
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/sh2288/clip2watermark?display_name=tag&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/sh2288/clip2watermark/releases/latest) ![image](https://img.shields.io/badge/.NET-4.5.2-brightgreen?style=flat&logo=.net) ![image](https://img.shields.io/badge/windows/xp/7/8/10-x86/x64-blue?style=flat&logo=windows)
 # 🔎 原理
-> win10 shift+win+s截屏后,利用nconvert.exe读取剪贴板截屏图片,添加指定水印,再送回到剪贴板
+> 利用nconvert.exe读取剪贴板图片,添加指定水印,再送回到剪贴板
 # 🌈 使用场景
 制作各种计算机技术教程,需要一边截屏一边写博客或文档,又渴望快速插入自己水印logo的大神们
 # 🈯 使用方法 
