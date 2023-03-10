@@ -1,5 +1,7 @@
 # 📣 clip2watermark 剪贴板图片加水印logo工具
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/sh2288/clip2watermark?display_name=tag&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/sh2288/clip2watermark/releases/latest) ![image](https://img.shields.io/badge/.NET-4.5.2-brightgreen?style=flat&logo=.net) ![image](https://img.shields.io/badge/windows/xp/7/8/10-x86/x64-blue?style=flat&logo=windows)
+# 🎥 演示动图
+![演示动图](clip2watermark-demo.gif)
 # 🔎 原理
 > 利用nconvert.exe读取剪贴板图片,添加指定水印,再送回到剪贴板
 # 🌈 使用场景
